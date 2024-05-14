@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    
+</head>
+x
+<body>
+
+        <div class=" text-center mt-5 ">
+                <h1 class="btn btn-dark text-center">SHOP <i class="fa-sharp fa-solid fa-basket-shopping"></i></h1>
+        </div>
+    <div class="container "> 
+        <div class="row text-center d-flex">
+            <div class="col-12 mb-4 col-md-4 col-lg-3">
+                <div class="card" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                    <div class="card-header bg-info  text-uppercase text-center  text-light">product 1</div>
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://picsum.photos/250" class="img-fluid" alt="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni itaque neque non obcaecati numquam, facere quam soluta, animi modi ipsam sit perferendis illum, laudantium distinctio corrupti quidem atque. Cum.</div>
+                    <div class="card-footer bg-info-subtle text-end">
+                        <a href="product1.html" class="btn btn-sm btn-secondary">BUY NOW <i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#" class="btn btn-sm btn-warning">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12  mb-4 col-md-4 col-lg-3">
+                <div class="card" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                    <div class="card-header bg-success text-uppercase text-center  text-light">product 2</div>
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://picsum.photos/250" class="img-fluid" alt="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni itaque neque non obcaecati numquam, facere quam soluta, animi modi ipsam sit perferendis illum, laudantium distinctio corrupti quidem atque. Cum.</div>
+                    <div class="card-footer bg-success-subtle text-end">
+                        <a href="product2.html" class="btn btn-sm btn-secondary">BUY NOW <i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#" class="btn btn-sm btn-warning">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4 col-md-4 col-lg-3">
+                <div class="card" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                    <div class="card-header bg-danger text-uppercase text-center  text-light">product 3</div>
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://picsum.photos/250" class="img-fluid" alt="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni itaque neque non obcaecati numquam, facere quam soluta, animi modi ipsam sit perferendis illum, laudantium distinctio corrupti quidem atque. Cum.</div>
+                    <div class="card-footer bg-danger-subtle text-end">
+                        <a href="product3.html" class="btn btn-sm btn-secondary">BUY NOW <i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#" class="btn btn-sm btn-warning">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4 col-md-4 col-lg-3">
+                <div class="card" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                    <div class="card-header bg-warning text-uppercase text-center text-light">product 4</div>
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://picsum.photos/250" class="img-fluid" alt="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni itaque neque non obcaecati numquam, facere quam soluta, animi modi ipsam sit perferendis illum, laudantium distinctio corrupti quidem atque. Cum.</div>
+                    <div class="card-footer bg-warning-subtle text-end">
+                        <a <a href="product4.html" class="btn btn-sm btn-secondary">BUY NOW <i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#" class="btn btn-sm btn-warning">ADD TO CART <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
